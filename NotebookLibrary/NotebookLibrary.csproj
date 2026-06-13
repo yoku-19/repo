@@ -41,8 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Birthday.cs" />
     <Compile Include="ContactGroup.cs" />
     <Compile Include="Contact.cs" />
+    <Compile Include="Event.cs" />
+    <Compile Include="Meeting.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
